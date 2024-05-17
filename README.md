@@ -9,3 +9,6 @@ https://github.com/microsoft/vcpkg
 5. 设置CMake选项 -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake 。注意这里必须用反斜杠，正斜杠因为是转义会报错。
 6. 使用vcpkg下载软件包选择x64-windows版本。Mingw-dynamic版本可能是兼容性问题总是链接失败。当然，把编译器设置为visual studio后vcpkg下载的判断默认就是x64-windows版了。(2024年5月15日)
 7. 果然，clion还是要复制fmtd.dll的（因为在C:\gitcloud\clion-vcpkg-config\cmake-build-debug找到了fmtd.dll文件），只不过clion把这个过程自动化了。(2024年5月17日)
+
+# visual studio中联合使用cmake和vcpkg的方法
+
