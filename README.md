@@ -12,3 +12,7 @@ https://github.com/microsoft/vcpkg
 
 # visual studio中联合使用cmake和vcpkg的方法
 
+1. 在labpc上，环境变量不用专门设置。(2024年5月17日)
+2. 启动项要选择当前文档CMakeLists.txt才行。(2024年5月17日)
+3. 在labpc上，set(CMAKE_PREFIX_PATH "C:/vcpkg/packages")并不是必需的。(2024年5月17日)
+
