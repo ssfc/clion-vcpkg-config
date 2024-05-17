@@ -7,5 +7,6 @@
 int main()
 {
     fmt::print("Hello, world!\n");
+    system("pause");
     return 0;
 }
