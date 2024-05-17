@@ -1,3 +1,5 @@
+这个project既可以在clion中运行，也可以在visual studio中运行。(2024年5月17日)
+
 # clion中使用vcpkg的方法
 
 https://github.com/microsoft/vcpkg
